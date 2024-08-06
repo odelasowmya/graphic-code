@@ -1,7 +1,8 @@
 
 body {
     margin: 0;
-    background: #313131;
+    /* background: #313131; */
+    background-color: #101423;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 13px;
     line-height: 1.4em;
@@ -89,7 +90,9 @@ body {
     width: 100%;
     border: 1px solid;
     color: #ffffff;
-    background: #313131;border: none;
+    /* background: #313131; */
+    background: #101423;
+    border: none;
 }
 
 .body-ul ul button:hover:not([disabled]) {
