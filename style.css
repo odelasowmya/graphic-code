@@ -449,6 +449,25 @@ footer {
 .height-50{
     height: calc(40vh - 100px);
 }
+input:focus-visible {
+    outline:#101423 auto 1px !important;
+}
+.wpg-input-wrapper:focus-visible{
+    outline: #101423 auto 1px !important;
+ 
+}
+.wpg-input:focus {
+    border-color: black; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+.wpg-input-wrapper:focus{
+    border-color: black;
+}
+.wpg-input:focus, .wpg-select:focus {
+    outline: 2px solid #2b3559 !important; /* Adjust the color and width as needed */
+    outline-offset: 2px; /* Adjust the offset if needed */
+    box-shadow: none !important; /* Remove the existing inset shadow */
+}
   @media (max-width:768px){
     .wpg-topbar {
         padding: 10px 10px 10px 10px;
