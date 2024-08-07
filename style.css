@@ -432,6 +432,7 @@ footer {
   .wpg-label, .wpg-input, .wpg-select {
     display: block;
     width: 100%;
+    text-wrap: nowrap;
   }
   .margintop-12{
     margin-top: 10px;
@@ -492,8 +493,9 @@ footer {
         width: 100%;}
         footer {
             bottom: 0px;
+            background: #1a1f31;
             margin-top: 48px;
-           
+           width: 100%;  
         }
         .wpg-project {
             height: 300px;
@@ -501,6 +503,10 @@ footer {
         .transform-flex1 {
             width: 75%;
         }
+        .margintop-12{
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
 }
  
 @media(max-width:1024px){
