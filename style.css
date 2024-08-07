@@ -491,7 +491,7 @@ footer {
     .cols-one {
         width: 100%;}
         footer {
-            bottom: 3px;
+            bottom: 0px;
             margin-top: 48px;
            
         }
